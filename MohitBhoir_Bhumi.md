@@ -12,9 +12,7 @@
 
 * website has two pages one is landing page and another is about us
 * landing page contains info about the latest technologies related to agriculture how they are helping farmers
-* about us page contain info about how **Bhumi** helping farmers to move towards sustainable farming and how they can improve their yelid
-
-
+* about us page contain info about how **Bhumi** helping farmers to move towards sustainable farming and how they can improve their yeli
 ## 🤖**Tech-Stacks**
 
 * Html
