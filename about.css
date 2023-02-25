@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+/* font-family: 'Tilt Warp', cursive; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background:green;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: lightgreen;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: white;
+  }
+
+  div{
+     padding:1rem;
+  }
+  .img1,.img2{
+      height:300px;
+      padding:0;
+      width:100%;
+  }
+  .img1{
+     background: url('./images/about1.jpg');
+     background-size: cover;
+     background-attachment: fixed;
+  }
+  .img2{
+    background: url('./images/about2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+ }
+  h1{
+    font-family: 'Tilt Warp', cursive;
+    color:#5DBB63;
+  }
+  p{
+    font-family: 'Rubik', sans-serif;
+    color:#32612D;
+  }
+  img{
+     background-attachment: fixed;
+  }
+  a{
+    text-decoration: none;
+    color:#32612D;
+    font-family: 'Tilt Warp', cursive;
+    transition: all 0.2s;
+    padding:1rem;
+    font-size: 20px;
+  }
+  a:hover{
+     color:white;
+     background: #32612D;
+     padding:1rem;
+  }

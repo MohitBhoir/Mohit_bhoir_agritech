@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/9645d9e0a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="bar">
+        <i class="fa-solid fa-bars-staggered" onclick="slideNav()"></i>
+        <img class="main-logo" src="./images/logo.jpg"/>
+     </div>
+     <nav class="navbar">
+        <i class="fa-brands fa-xing" onclick="backNav()" id="cross"></i>
+        <img class="logo" src="./images/logo.jpg"/>
+         <ul class="list">
+            <li><a href="./index.html"><i class="fa-solid fa-house-chimney"></i></a><span>Home</span></li>
+            <li><a href="./about.html"><i class="fa-solid fa-user"></i></a><span>About</span></li>
+         </ul>
+     </nav>
+    
+     <!-- hero section -->
+
+     <video  autoplay muted loop class="alter-v">
+        <source src="./Pexels Videos 2758322 (1).mp4" type="video/mp4">
+      </video>
+
+      <div class="hero-p">
+          <div class="extra hidden">
+            <img src="./images/fert.jpg" alt="" class="extra-img">
+            <p class="extra-p">Make use of organic fertilizers</p>
+            <div class="r"></div>
+          </div>
+          <div class="extra hidden">
+            <div class="extra">
+                <img src="./images/iri.jpg" alt="" class="extra-img">
+                <p class="extra-p">smart irrigation Technology</p>
+                <div class="r"></div>
+              </div>
+          </div>
+          <div class="extra hidden">
+            <img src="./images/ai.jpg" alt="" class="extra-img">
+              <p class="extra-p">Use of Aritificial intelligence</p>
+              <div class="r"></div>
+          </div>
+      </div>
+
+     <div class="slider">
+        <div class="slides active">
+          <img src="./images/agri.jpg" alt="">
+          <div class="info">
+            <h2>Modern Greenhouses</h2>
+            <p>Modern greenhouses with LED lighting and automated control systems  to exactly adjust to the growing environment</p>
+          </div>
+        </div>
+        <div class="slides">
+          <img src="./images/grass.jpg" alt="">
+          <div class="info">
+            <h2>Internet of Things (IoT)</h2>
+            <p>Using IoT devices, to collect data and deliver precise information in real-time via mobile apps or other means. </p>
+          </div>
+        </div>
+        <div class="slides">
+          <img src="./images/farmer1.jpg" alt="">
+          <div class="info">
+            <h2>Livestock Farming Technology</h2>
+            <p> Livestock provides us with essential renewable natural resources that we use every day. </p>
+          </div>
+        </div>
+        <div class="navigation">
+          <i class="fas fa-chevron-left prev-btn"></i>
+          <i class="fas fa-chevron-right next-btn"></i>
+        </div>
+        <div class="navigation-visibility">
+          <div class="slide-icon active"></div>
+          <div class="slide-icon"></div>
+          <div class="slide-icon"></div>
+        </div>
+      </div>
+
+
+      <!-- extra content of landing page -->
+
+      <div class="card-container">
+        <article class="card">
+             <h1 class="heading hidden">Helping you lead an sustainable <br/>farming</h1>
+        </article>
+        <article class="card">
+             <div class="para">
+                The applications of IoT in the agriculture industry has helped the farmers to monitor the water tank levels in real-time which makes the irrigation process more efficient.
+             </div>
+        </article>
+        <article class="card">
+            <div class="para">
+                Modern irrigation equipments for efficient water supply results in more greener crops
+             </div>
+        </article>
+        <article class="card">
+            <div class="para">Drones paired with thermal cameras are ideal in this industry as they are able to detect and see from above what humans cannot from the ground.
+             </div>
+        </article>
+   </div>
+   
+   <div class="fix">
+        <div>
+             <h1 class="head">Setup your own modern Greenhouse <br> now!!</h1>
+             <p class="g-p">Crop production is a challenging business, with the crops being constantly exposed to unfavorable weather conditions. Weather and climate conditions play an important role in determining the pace of crop production.Greenhouse farming is one of the basic variations of farming in a controlled environment.</p>
+        </div>
+   </div>
+   <video  autoplay muted loop>
+      <source src="./sheep-70858 (1).mp4" type="video/mp4">
+    </video>
+    <div class="text">
+        <h1 class="quote">
+            Investments in agriculture are the best weapons against hunger and poverty,and they have made life better for billions of people
+        </h1>
+        <p class="name">
+            - BILL GATES foundation
+        </p>
+   </p>
+      <script src="./index.js"></script>
+</body>
+</html>
